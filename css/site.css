@@ -57,7 +57,7 @@ header .logo{
     top: 0px;
 }
 header .logo IMG{
-    width: 145px;
+    width: 50px;
     height:auto;
     float: left;
 }
@@ -106,7 +106,7 @@ header .menu-left{
     display: none;
 }
 .closeMenuLeft{
-    background: #DB3628;
+    background: #337ab7;
     color: #FFF;
     font-size: 23px;
     position: absolute;
@@ -123,10 +123,10 @@ header .menu-left .header{
     height: 55px;
     float: left;
     background: rgba(234,68,53,1);
-    background: -moz-linear-gradient(left,rgba(234,68,53,1) 0,rgba(217,63,89,1) 100%);
-    background: -webkit-gradient(left top,right top,color-stop(0%,rgba(234,68,53,1)),color-stop(100%,rgba(217,63,89,1)));
-    background: -webkit-linear-gradient(left,rgba(234,68,53,1) 0,rgba(217,63,89,1) 100%);
-    background: -o-linear-gradient(left,rgba(234,68,53,1) 0,rgba(217,63,89,1) 100%);
+    background: -moz-linear-gradient(left, #337ab7 0, #337ab7 100%);
+    background: -webkit-gradient(#337ab7);
+    background: -webkit-linear-gradient(left,#337ab7 0,#337ab7 100%);
+    background: -o-linear-gradient(left,#337ab7 0,#337ab7 100%);
     background: -ms-linear-gradient(left, #337ab7);
     background: linear-gradient(to right, #337ab7);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ea4435',endColorstr='#d93f59',GradientType=1);
@@ -135,7 +135,7 @@ header .menu-left .header{
     box-sizing: border-box;
 }
 header .menu-left .header img{
-    width: 145px;
+    width: 50px;
     height: auto;
     float: left;
     margin: 0px 43px;
@@ -1109,4 +1109,17 @@ footer .footer-content{
 
 .w3-ul > li {
     border-bottom: 1px dashed #e5e6e9;
+}
+/**--------------------------------breadcrumb-------------------------------**/
+/**--------------------------------------end breadcrumb-------------------------------------------*/
+.logo a {
+    text-decoration: none;
+}
+.w3-ul li h4 i {
+    font-size: 10px;
+}
+.logo a p {
+    font-size: 36px;
+    color: white;
+    line-height: 55px;
 }
