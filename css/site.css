@@ -1123,3 +1123,7 @@ footer .footer-content{
     color: white;
     line-height: 55px;
 }
+
+.container .detail-news .content{
+    margin: 5px 5px;
+}
